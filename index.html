@@ -209,7 +209,7 @@
     script.src='https://www.googletagmanager.com/gtag/js?id=G-4HME3537GS';
     document.head.appendChild(script);
   }
-  function select(value){saveChoice(value);banner.hidden=true;if(value==='yes')enableAnalytics();}
+  function select(value){saveChoice(value);banner.hidden=true;if(value==='yes')enableAnalytics();else if(enabled)window.location.reload();}
   document.getElementById('ga-accept').addEventListener('click',function(){select('yes');});
   document.getElementById('ga-reject').addEventListener('click',function(){select('no');});
   document.getElementById('ga-privacy-settings').addEventListener('click',function(){banner.hidden=false;});
