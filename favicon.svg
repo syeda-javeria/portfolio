@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="3" fill="#EEE5D8"/>
-  <text x="10" y="43" fill="#171714" font-family="Bodoni MT, Didot, 'Times New Roman', serif" font-size="40" font-weight="normal" font-style="normal">S</text>
-  <text x="33" y="46" fill="#171714" font-family="Bodoni MT, Didot, 'Times New Roman', serif" font-size="40" font-weight="normal" font-style="normal">J</text>
+  <g fill="none" stroke="#171714" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 19 C26 14, 17 15, 14 22 C10 31, 31 31, 30 40 C29 48, 17 49, 12 43"/>
+    <path d="M36 18 H51 M44 18 V42 C44 53, 36 54, 32 48"/>
+  </g>
 </svg>
